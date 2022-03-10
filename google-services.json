@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904049582865",
+    "project_id": "raniaapp-798c0",
+    "storage_bucket": "raniaapp-798c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904049582865:android:52737ea03b4895d45662b0",
+        "android_client_info": {
+          "package_name": "com.example.raniaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904049582865-vds2r9qpm8da6d0res7jsq73htr0ni38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhISUObrbmoqyJFHOntDqJJkrH0i1qDTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904049582865-vds2r9qpm8da6d0res7jsq73htr0ni38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+}

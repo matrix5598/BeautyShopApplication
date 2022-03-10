@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Montag">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+        <ImageButton
+            android:id="@+id/backterminemo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_backgold"
+            android:backgroundTint="@color/button_background_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textColor="#cdbe70"
+            android:fontFamily="cursive"
+            android:text="Termine einrichten..."/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:text="von"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+            <Spinner
+                android:id="@+id/dropdown_menuMoVon"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape">
+            </Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text=" bis "/>
+
+            <Spinner
+                android:id="@+id/dropdown_menuMoBis"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Uhr. "/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/calendarview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_calendargold"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"/>
+
+            <Spinner
+                android:id="@+id/tag"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/shape"/>
+            <Spinner
+                android:id="@+id/mon"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/shape"/>
+            <Spinner
+                android:id="@+id/jahr"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/shape"/>
+
+            <ImageButton
+                android:id="@+id/plusbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_addcheck"
+                android:backgroundTint="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape">
+
+            <EditText
+                android:id="@+id/edit_behandlung"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:hint="Behandlung hinzufügen + ..."
+                android:textColor="#cdbe70"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+            <ImageButton
+                android:id="@+id/imgbtn_behandlung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_plusbtn"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Hinzugefügte Uhrzeiten"/>
+            
+            <ImageButton
+                android:id="@+id/loeschenbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/ic_minus"
+                />
+
+            <ImageButton
+                android:id="@+id/pfeilbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_arrowdown"/>
+        </LinearLayout>
+
+        t<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listview"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:layout_width="match_paren"
+                android:layout_height="fill_parent"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

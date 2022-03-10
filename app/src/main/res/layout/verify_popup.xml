@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PopUpVerify">
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/etVerifyCode"
+        android:layout_above="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="000-000-000"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Verifizieren"
+        android:backgroundTint="#cdbe70"
+
+        android:layout_gravity="center"/>
+
+</LinearLayout>

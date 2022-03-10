@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "896416108544",
+    "firebase_url": "https://raniaapp-593d2-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "raniaapp-593d2",
+    "storage_bucket": "raniaapp-593d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896416108544:android:b87c28f6cf0f5fac8bc8e5",
+        "android_client_info": {
+          "package_name": "com.example.raniaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896416108544-8b2pj2bujicgcluotigh4onvld3k2ll9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgEVJD_KjHkSkwd7bfFGVOdEhdfN20j6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896416108544-8b2pj2bujicgcluotigh4onvld3k2ll9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
